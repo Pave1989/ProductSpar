@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8236A7242B702BEA00CB1389 /* CharacteristicsProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8236A7232B702BEA00CB1389 /* CharacteristicsProductModel.swift */; };
 		829746422B697EC200E849F2 /* CardProductApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829746412B697EC200E849F2 /* CardProductApp.swift */; };
-		829746442B697EC200E849F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829746432B697EC200E849F2 /* ContentView.swift */; };
 		829746462B697EC300E849F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829746452B697EC300E849F2 /* Assets.xcassets */; };
 		829746492B697EC300E849F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829746482B697EC300E849F2 /* Preview Assets.xcassets */; };
+		829746502B697EE100E849F2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297464F2B697EE100E849F2 /* MainView.swift */; };
+		829746522B697F1300E849F2 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829746512B697F1300E849F2 /* ProductModel.swift */; };
+		82E3C37A2B711D4900F2765C /* RatingStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3C3792B711D4900F2765C /* RatingStars.swift */; };
+		82E3C37E2B7122FB00F2765C /* ReviewsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3C37D2B7122FB00F2765C /* ReviewsScrollView.swift */; };
+		82E3C3822B7124ED00F2765C /* RatingReviewsCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3C3812B7124ED00F2765C /* RatingReviewsCellModel.swift */; };
+		82E3C3862B7127BF00F2765C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3C3852B7127BF00F2765C /* TabView.swift */; };
+		82E3C3892B716EDA00F2765C /* MainViewTextConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3C3882B716EDA00F2765C /* MainViewTextConstant.swift */; };
+		82E3C38B2B716EE400F2765C /* MainViewConstantsConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E3C38A2B716EE400F2765C /* MainViewConstantsConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8236A7232B702BEA00CB1389 /* CharacteristicsProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicsProductModel.swift; sourceTree = "<group>"; };
 		8297463E2B697EC200E849F2 /* CardProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		829746412B697EC200E849F2 /* CardProductApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProductApp.swift; sourceTree = "<group>"; };
-		829746432B697EC200E849F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		829746452B697EC300E849F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		829746482B697EC300E849F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8297464F2B697EE100E849F2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		829746512B697F1300E849F2 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		82E3C3792B711D4900F2765C /* RatingStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStars.swift; sourceTree = "<group>"; };
+		82E3C37D2B7122FB00F2765C /* ReviewsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsScrollView.swift; sourceTree = "<group>"; };
+		82E3C3812B7124ED00F2765C /* RatingReviewsCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingReviewsCellModel.swift; sourceTree = "<group>"; };
+		82E3C3852B7127BF00F2765C /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		82E3C3882B716EDA00F2765C /* MainViewTextConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTextConstant.swift; sourceTree = "<group>"; };
+		82E3C38A2B716EE400F2765C /* MainViewConstantsConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewConstantsConstraints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				829746412B697EC200E849F2 /* CardProductApp.swift */,
-				829746432B697EC200E849F2 /* ContentView.swift */,
+				82E3C3852B7127BF00F2765C /* TabView.swift */,
+				82E3C3872B716EC700F2765C /* Constants */,
+				82E3C3782B711B7B00F2765C /* MainView */,
+				82E3C3772B711B6D00F2765C /* Models */,
 				829746452B697EC300E849F2 /* Assets.xcassets */,
 				829746472B697EC300E849F2 /* Preview Content */,
 			);
@@ -65,6 +84,35 @@
 				829746482B697EC300E849F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82E3C3772B711B6D00F2765C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				829746512B697F1300E849F2 /* ProductModel.swift */,
+				8236A7232B702BEA00CB1389 /* CharacteristicsProductModel.swift */,
+				82E3C3812B7124ED00F2765C /* RatingReviewsCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82E3C3782B711B7B00F2765C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				8297464F2B697EE100E849F2 /* MainView.swift */,
+				82E3C3792B711D4900F2765C /* RatingStars.swift */,
+				82E3C37D2B7122FB00F2765C /* ReviewsScrollView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		82E3C3872B716EC700F2765C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				82E3C3882B716EDA00F2765C /* MainViewTextConstant.swift */,
+				82E3C38A2B716EE400F2765C /* MainViewConstantsConstraints.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829746442B697EC200E849F2 /* ContentView.swift in Sources */,
+				829746502B697EE100E849F2 /* MainView.swift in Sources */,
+				82E3C3862B7127BF00F2765C /* TabView.swift in Sources */,
+				82E3C37E2B7122FB00F2765C /* ReviewsScrollView.swift in Sources */,
+				82E3C3822B7124ED00F2765C /* RatingReviewsCellModel.swift in Sources */,
+				82E3C3892B716EDA00F2765C /* MainViewTextConstant.swift in Sources */,
+				8236A7242B702BEA00CB1389 /* CharacteristicsProductModel.swift in Sources */,
+				82E3C38B2B716EE400F2765C /* MainViewConstantsConstraints.swift in Sources */,
 				829746422B697EC200E849F2 /* CardProductApp.swift in Sources */,
+				829746522B697F1300E849F2 /* ProductModel.swift in Sources */,
+				82E3C37A2B711D4900F2765C /* RatingStars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +331,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +361,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
